@@ -1,0 +1,229 @@
+.container{
+    display:flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.options{
+    width: 20vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+  /*  background-image: url('https://img.freepik.com/free-photo/white-wood-background_74190-1355.jpg?semt=ais_hybrid');*/
+  background:black;
+}
+
+.options nav{
+    padding:40px;
+}
+.options nav li{
+    list-style-type: none;
+    padding: 30px 0;
+    font-size: 20px;
+  font-weight:lighter;
+  
+}
+.options nav li a{
+    color:white;
+    text-decoration: none;
+    font-weight: 200;
+}
+.content{
+    width:80vw;
+    background-image: url('https://images.unsplash.com/photo-1641598471501-61a78df0edec?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D');
+    height: 100vh;
+    display: flex;
+}
+.smallconatiner{
+    width:50vw;
+    height: 60vh;
+    margin: auto;
+    background-color: beige;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.hi{
+font-size: 50px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subhead{
+font-size:23px ;
+padding: 24px;
+}
+.aboutme{
+    font-size: 19px;
+    font-family: system-ui;
+    padding: 15px;
+}
+.mydemo{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: -39px;
+    margin-left: 16px;
+    color: white;
+    height:48vh;
+}
+.descripcontent{
+    width:80vw;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/98/456/desktop-wallpaper-abstract-animated-technology-backgrounds-with-script-programming-code-background-1920x1080.jpg');
+    height: 100vh;
+    display: flex;
+}
+.smallconatiner1{
+    width:45vw;
+    height: 60vh;
+    margin: auto;
+    background-color:black;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.options1{
+    width: 20vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background:black;
+}
+
+.options1 nav{
+    padding:40px;
+}
+.options1 nav li{
+    list-style-type: none;
+    padding: 30px 0;
+    font-size: 20px;
+  font-weight:lighter;
+  
+}
+.options1 nav li a{
+    color:white;
+    text-decoration: none;
+    font-weight: 200;
+}
+.smallconatiner1 button{
+    padding:10px;
+    font-weight: bolder;
+    background-color: rgb(46, 210, 202);
+    font-family: system-ui;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.smallconatiner1 button:hover{
+    background-color: rgb(38, 178, 167);
+}
+.work{
+   
+    height:0vh;
+}
+.info-box {
+    display: none; /* Initially hidden */
+    width: 67vw;
+    height: 83vh;
+    padding: 24px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 30px;
+    left: 59%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+/* Optional: Animation for the info box */
+.info-box.show {
+    display: block; /* Show the box when toggled */
+    animation: slideIn 0.3s ease-in-out;
+}
+
+/* Animation for the information box */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+h2{
+    color:navy;
+    font-size: 28px;
+    text-align: center;
+}
+.intern1{
+    color:navy;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.company1{
+    color:blue;
+    margin-top: 13px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: sans-serif;
+
+}
+.desc1{
+    color:black;
+    margin-top: -2px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+
+}
+.desc1 li{
+    padding: 8px 0;
+}
+.intern2{
+    color:navy;
+    margin-top: 21px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.company2{
+    color:blue;
+    margin-top: 13px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: sans-serif;
+
+}
+.desc2 li{
+    padding: 8px 0;
+}
+.desc2{
+    color:black;
+    margin-top: -2px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+
+}
+#back{
+    background-color: navy;
+    color: white;
+    padding:3px;
+    font-weight: bolder;
+    cursor: grab;
+}
+#back a{
+    text-decoration: none;
+    color:white;
+}
